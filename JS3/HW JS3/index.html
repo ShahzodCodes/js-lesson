@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HW JS3 Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<div class="calculator">
+    <div class="card">
+        <div class="card-header">
+           Hisoblashni bajaring:
+        </div>
+        <div class="card-body text-center">
+            <div class="number-one">1-raqam <input id="raqam1" type="text" class="form-control"></div>
+            <div class="number-two">2-raqam<input id="raqam2" type="text" class="form-control"></div>
+            <div class="all-buttons">
+                <button onclick="plus()" type="button" class="btn  mt-3">+</button>
+                <button onclick="minus()" type="button" class="btn  mt-3">-</button>
+                <button onclick="multiple()" type="button" class="btn  mt-3">*</button>
+                <button onclick="bulish()" type="button" class="btn  mt-3">/</button>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            Javob:
+            <div class="javob">
+                <h4 id="result">
+
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

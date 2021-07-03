@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightslategrey;
+}
+
+.calculator .card{
+    border: 10px solid steelblue;
+    width: 400px;
+}
+.card-header{
+    padding: 25px 10px;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-footer{
+    width: 100%;
+    height: 50px;
+    background-color: #086268;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4dff0d;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 700;
+}
+.card-footer #result{
+    font-size: 25px;
+    line-height: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+.javob{
+    min-width: 70px;
+    max-width: 250px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.number-one, .number-two{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 15px;
+    color: #0c5460;
+}
+.number-one input, .number-two input{
+    margin-top: 15px;
+}
+.number-one input:focus, .number-two input:focus{
+    box-shadow: none;
+}
+.number-two{
+    margin-top: 20px;
+}
+.all-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.all-buttons button{
+    border: 1px solid black;
+    background-color: #27faff;
+}
+.all-buttons button:focus{
+    box-shadow: none;
+}

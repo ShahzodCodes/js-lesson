@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header text-center">
+                    <input id="myInput" type="text" class="form-control">
+                    <button onclick="getInputValue()" type="button" class="btn btn-success btn-block mt-3">
+                        Click me
+                    </button>
+                </div>
+                <div class="card-body bg-danger text-white text-center">
+                    <h4 id="res">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Hafta kunini kiriting</h4>
+                </div>
+                <div class="card-body">
+                    <input id="week" type="number" class="form-control">
+                    <button onclick="getWeek()" type="button" class="btn btn-success btn-block">
+                        Click me
+                    </button>
+                </div>
+                <div class="card-footer">
+                    <h4 id="day">
+
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
